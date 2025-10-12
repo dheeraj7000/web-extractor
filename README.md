@@ -12,6 +12,9 @@ It combines:
 * Ready placeholder for future **LLM-based summarization**
 
 ---
+## Workflow
+
+![SmartScout Workflow](utils/img.png)
 
 ## 🧩 Project Structure
 
