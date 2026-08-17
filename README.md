@@ -9,7 +9,7 @@ It combines:
 * Multi-level textual relevance scoring (exact, substring, noun, keyword)
 * Intelligent, depth-limited crawling
 * Context-aware link prioritization
-* PDF parsing and text extraction
+* PDF parsing and text extraction.
 * Ready placeholder for future **LLM-based summarization**
 
 ---
