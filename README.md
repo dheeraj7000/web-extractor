@@ -193,4 +193,4 @@ Example (truncated JSON output):
 
 ## 📄 License
 
-MIT — use it, fork it, extend it.
+MIT — use it, fork it, extend it - contributions welcome.
