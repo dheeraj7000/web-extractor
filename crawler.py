@@ -9,7 +9,7 @@ from pdf_parser import PDFParser
 from models import LinkData, PageData, CrawlResult
 from config import SCORING_WEIGHTS
 
-class SmartScoutCrawler:
+class WebExtractorCrawler:
     def __init__(self, allow_external: bool = False, max_depth: int = 3, polite_delay: float = 1.0):
         self.session = WebUtils.create_session()
         self.pdf_parser = PDFParser()

@@ -1,7 +1,8 @@
 # 🌐 Web Extractor
 
-**Web Extractor** is an intelligent, phrase-based focused web crawler that retrieves web pages and PDFs relevant to any input phrase or sentence.
-It extends multi-strategy matching originally designed for award/scholarship discovery into a **general-purpose semantic crawler** for any topic, domain, or website.
+**Web Extractor** is a general-purpose, phrase-based focused web crawler that retrieves web pages and PDFs relevant to any input phrase or sentence — on any topic, domain, or website.
+
+📄 **[View the live showcase page](https://dheeraj7000.github.io/web-extractor/)**
 
 It combines:
 
@@ -14,7 +15,7 @@ It combines:
 ---
 ## Workflow
 
-![SmartScout Workflow](utils/img.png)
+![Web Extractor Workflow](utils/img.png)
 
 ## 🧩 Project Structure
 
@@ -190,5 +191,6 @@ Example (truncated JSON output):
 
 ---
 
+## 📄 License
 
-Would you like me to include a ready-made `requirements.txt` file content here as well (matching your imports)?
+MIT — use it, fork it, extend it.

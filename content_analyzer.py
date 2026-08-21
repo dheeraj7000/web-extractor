@@ -13,10 +13,13 @@ class ContentAnalyzer:
         - include short prefixes for longer tokens to capture partials
         """
         stop_words = {
-            "foundation", "award", "program", "scholarship", "grant", "fellowship",
-            "prize", "fund", "in", "for", "and", "the", "of", "to", "on", "with",
+            "in", "for", "and", "the", "of", "to", "on", "with",
             "by", "from", "about", "this", "that", "these", "those", "using",
-            "use", "a", "an", "or", "not", "into", "over", "under", "as"
+            "use", "a", "an", "or", "not", "into", "over", "under", "as",
+            "is", "are", "was", "were", "be", "been", "being", "it", "its",
+            "at", "than", "then", "so", "but", "if", "can", "will", "would",
+            "how", "what", "when", "where", "which", "who", "whom", "your",
+            "you", "we", "our", "their", "his", "her", "they", "he", "she"
         }
         words = re.split(r"\W+", phrase.lower())
         tokens = [w for w in words if w and w not in stop_words and len(w) > 3]
